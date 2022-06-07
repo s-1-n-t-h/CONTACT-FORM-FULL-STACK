@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <!--fielset is used to draw a box around related elements like grouping-->
+    <fieldset>
+        <!--lengend tag is used to define caption for the fieldset element-->
+        <legend>Contact Form</legend>
+        <form action="contact.php" name="frmContact" method="post">
+            <p>
+                <label for="Name">Name</label>
+                <input type="text" name="txtName" id="txtName">
+            </p>
+            <p>
+                <label for="email">Email</label>
+                <input type="text" name="txtEmail" id="txtEmail">
+            </p>
+            <p>
+                <label for="phone">Phone</label>
+                <input type="text" name="txtPhone" id="txtPhone">
+            </p>
+            <p>
+                <label for="Message">Message</label>
+                <textarea name="txtMessage" id="txtMessage" cols="30" rows="10"></textarea>
+            </p>
+            <p>&nbsp;</p> <!--adds space-->
+            <p>
+                <input type="submit" name="Submit" id="Submit" value="Submit">
+            </p>
+        </form>
+    </fieldset>
+</body>
+</html>
