@@ -2,7 +2,7 @@
 // database connection code
 // $con = mysqli_connect('localhost', 'database_user', 'database_password','database');
 
-$con = mysqli_connect('localhost', 'root', '','db_contact');
+$con = mysqli_connect('185.27.134.10', 'epiz_31905275', 'tzjqyaZI03mD0','db_contact');
 
 // get the post records
 $txtName = $_POST['txtName'];
